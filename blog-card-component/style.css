@@ -3,5 +3,31 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: #F5E7DA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
 
-/* write your CSS here */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 445px;
+    max-height: 652px;
+    background-color: white;
+}
+
+.card_banner {
+    background-color: white;
+    width: auto;
+    max-height: 30vh;
+}
+
+.description {
+    padding: 10px;
+}

@@ -11,6 +11,7 @@ body {
     align-items: center;
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
 }
 
 .container {
@@ -70,3 +71,27 @@ h2 {
 h2 + p {
     color: gray;
 }
+
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+.box {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .box > .circle {
+    height: 50vh;
+    width: 50vh;
+    position: absolute;
+    bottom: -25vh;
+    right: -25vh;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px black;
+  }
